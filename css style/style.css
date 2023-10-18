@@ -181,7 +181,7 @@ nav {
     color: #474747;
 }
 
-/* what-i-do  */
+/* what-i-do stylesheet */
 .what-i-do {
     padding: 0px 200px 130px 200px;
 }
@@ -211,4 +211,113 @@ nav {
 .feature-description {
     color: #757575;
     line-height: 28px;
+}
+
+/* resume-section stylesheet  */
+.resume-section {
+    padding: 0px 200px 130px 200px;
+}
+
+.resume-items {
+    display: flex;
+    gap: 30px;
+}
+
+.content-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.resume-info {
+    margin: 30px 0;
+}
+
+.resume-info-title {
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.resume-info-subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.resume-info-description {
+    color: #757575;
+    line-height: 28px;
+}
+
+.resume-button {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* contact-section stylesheet   */
+.contact-section {
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+
+.contact-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.contact-info {
+    width: 100%;
+}
+
+.contact-info-title {
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.contact-info-description {
+    color: #474747;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.contact-info a {
+    display: inline-block;
+    margin-right: 24px;
+}
+
+#text {
+    display: block;
+    width: 461px;
+    padding: 18px 0 18px 30px;
+    color: #757575;
+    margin-bottom: 24px;
+    border: 0;
+    outline: none;
+}
+
+textarea {
+    display: block;
+    width: 461px;
+    padding: 18px 0 0 30px;
+    margin-bottom: 24px;
+}
+
+/* footer stylesheet  */
+.footer {
+    padding: 50px 200px;
+    background-color: #181818;
+    color: #FFF;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 18px;
+    font-weight: 500;
 }
